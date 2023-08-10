@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------- ------------------- --------------- */
+
+
+.hero4 {
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.hero4 img {
+    width: 50%;
+    height: 100%;
+}
+
+.hero4-text {
+    width: 50%;
+    height: 70vh;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero4-text h1 {
+    padding-top: 25%;
+    font-size: 2rem;
+    font-weight: 800;
+    color: red;
+}
+
+.hero4-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.formulaire {
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: #92929286;
+    padding: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.formulaire span {
+    font-size: 0.8rem;
+    color: red;
+}
+
+.chant {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 7%;
+}
+
+.message-success {
+    width: 100%;
+    background-color: limegreen;
+    padding: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.chant- {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 7%;
+}
+
+.chant-- {
+    width: 100%;
+    padding: 0.rem;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-top: 7%;
+}
+
+.chant--:hover {
+    background-color: #00000065;    
+}
+
+
+@media screen and (max-width: 790px) {
+    .hero4-text h1 {
+        padding: 10px 20px;
+    }
+
+    .hero4-text h1 {
+        padding-top: 5%;
+        font-size: 3rem;
+        font-weight: 800;
+        color: red;
+    }    
+
+    .hero4-text p {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .formulaire {
+        margin-bottom: 5%;
+    }
+
+    .hero4 {
+        width: 100%;
+        display: flex;
+        height: 60vh;
+    }
+    
+    .hero4 img {
+        width: 100%;
+        display: none;
+    }
+    
+    .hero4-text {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .chant-- {
+        width: 100%;
+        padding: 0.rem;
+        background-color: transparent;
+        border-radius: 0px;
+        margin-top: 7%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .chant--:hover {
+        background-color: #00000065;    
+    }
+    
+}

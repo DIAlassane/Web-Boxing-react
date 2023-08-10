@@ -1,0 +1,142 @@
+.banner {
+    background-color: red;
+    padding: 1rem;
+    margin-top: -1%;
+    font-size: 0.5rem;
+}
+
+.banner h4 {
+    font-size: 1rem;
+}
+
+/* ------------ Button -------------*/
+
+.button {
+    display: flex;
+    background-color: transparent;
+    font-size: 3rem;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.span:hover {
+    background-color: transparent;
+}
+
+.span {
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    margin-left: 1%;
+}
+
+.Img-1 {
+    height: 25vh;
+    border-radius: 30px;
+}
+
+.lechant {
+    height: 380vh;
+    background-color: blue;
+}
+
+.sect1 {
+    background: url(../assets/9.png);
+    width: 25%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.sect2 {
+    background: url(../assets/10.png);
+    width: 25%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.sect3 {
+    background: url(../assets/11.png);
+    width: 25%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.sect1 h2,
+.sect2 h2,
+.sect3 h2,
+.sect4 h2,
+.sect5 h2,
+.sect6 h2 {
+    width: 100%;
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 100%;
+    padding-top: 0.2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.sect4 {
+    background: url(../assets/12.png);
+    width: 25%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.sect5 {
+    background: url(../assets/13.png);
+    width: 25%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.sect6 {
+    background: url(../assets/14.png);
+    width: 25%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.hero-stuck {
+    padding-bottom: 20%;
+}

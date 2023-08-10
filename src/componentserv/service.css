@@ -1,0 +1,31 @@
+.seance {
+    width: 30%;
+    background-color: #000000ba;
+    padding: 2rem 0.5rem;
+    border-radius: 25px;
+    color: white;
+}
+
+.seance h2,
+.seance h3 {
+    margin: 0.5rem;
+}
+
+.back {
+    background-color: brown;
+}
+
+.flexc {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.imgagbelle {
+    background: url(../assets/belle.png);
+    width: 100%;
+    margin-right: 10%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

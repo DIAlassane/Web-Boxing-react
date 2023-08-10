@@ -1,0 +1,11 @@
+.section1 {
+    height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+    color: blue;
+    font-style: italic;
+    padding-top: 19%;
+}

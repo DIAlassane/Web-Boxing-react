@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------- ------------------- --------------- */
+
+
+.hero2 {
+    width: 100%;
+    display: flex;
+    margin-top: -3%;
+}
+
+.hero2 img {
+    width: 50%;
+    height: 100%;
+}
+
+.hero2-text {
+    width: 50%;
+    background-color: black;
+}
+
+.hero2-text h1 {
+    padding-top: 35%;
+    font-size: 2rem;
+    font-weight: 800;
+    color: red;
+}
+
+.hero2-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.5rem 0 2rem 0;
+}
+
+@media screen and (max-width: 790px) {
+    .hero2-text h1 {
+        padding: 10px 20px;
+    }
+
+    .hero2-text h1 {
+        padding-top: 12%;
+        font-size: 3rem;
+        font-weight: 800;
+        color: red;
+    }    
+
+    .hero2-text p {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+
+    .hero2 {
+        width: 100%;
+        display: flex;
+        height: 60vh;
+    }
+    
+    .hero2 img {
+        width: 100%;
+        display: none;
+    }
+    
+    .hero2-text {
+        width: 100%;
+        background: url(../assets/2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
