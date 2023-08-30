@@ -1,7 +1,7 @@
-export const MenuItem = [
+export const MenuItems = [
     {
         title : "Home",
-        url : "/",
+        url : "/homes",
         cName : "nav-links", 
         icon : "fa-solid fa-flag"
     },
@@ -10,11 +10,6 @@ export const MenuItem = [
         url : "./product",
         cName : "nav-links", 
         icon : "fa-solid fa-capsules"
-    },
-    {
-        title : "Sign In",
-        url : "/signin",
-        cName : "nav-links", 
     },
     {
         title : "",

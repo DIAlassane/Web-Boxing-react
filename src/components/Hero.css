@@ -25,8 +25,9 @@ img {
 }
 
 .hero-text p {
-    font-size: 1.3rem;
-    color: black;
+    font-size: 2rem;
+    font-weight: 900;
+    color: brown;
     padding: 0.5rem 0 2rem 0;
 }
 

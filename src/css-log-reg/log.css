@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex,
+.flexa {
+    display: flex;
+}
+
+.img {
+    background: url(../assets/si.png);
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 50%;
+    background-color: black;
+    font-size: auto;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+h1 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputo {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px;
+    margin-bottom: 01.3rem;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.852);
+    font-weight: 700;
+}
+
+button {
+    margin-top: 0rem;
+}
+
+.uno {
+    width: 50%;
+    height: 20vh;
+}
+
+.deuxo {
+    width: 50%;
+    height: 20vh;
+}
+
+.para {
+    color: white;
+    margin-top: 3rem;
+}
+
+.uno img,
+.deuxo img {
+    width: 100%;
+    height: auto;
+}
+
+.titi {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
