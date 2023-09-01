@@ -13,7 +13,7 @@ export const MenuItems = [
     },
     {
         title : "",
-        url : "/panier",
+        url : "/weboxes",
         cName : "nav-links", 
         icon : "fa-solid fa-cart-shopping"
     }

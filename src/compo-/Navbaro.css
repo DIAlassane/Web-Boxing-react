@@ -57,8 +57,7 @@ button {
     display: block;
     justify-content: center;
     text-align: center;
-    width: 30%;
-    margin-left: 35%;
+    width: 100%;
 }
 
 .nav-links-mobile {

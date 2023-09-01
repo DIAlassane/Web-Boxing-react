@@ -18,9 +18,10 @@ export const MenuItem = [
     },
     {
         title : "",
-        url : "/panier",
+        url : "/weboxes",
         cName : "nav-links", 
-        icon : "fa-solid fa-cart-shopping"
+        icon : "fa-solid fa-cart-shopping",
+        text : "0"
     }
 
 ];

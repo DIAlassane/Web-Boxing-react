@@ -1,17 +1,21 @@
 import "../componentsp/producte.css";
+import React from "react";
 
-function compo(props){
-    return(
-        <div className={props.cName}>
-            <h3>{props.info}</h3>
-            <img src={props.carteImg} alt="WEBOXINGIMAGE" />
-            <div className="f-card">
-                <h2>{props.name}</h2>
-                <p>Prix : {props.price}</p>
-                <button className="buttone">view</button>
-            </div>
+const Compo = ({ item, handleClick }) => {
+
+    const { title, price, img } = item;
+    return (
+      <div className="cards">
+        <div className="image_box">
+          <img src={img} alt="" />
         </div>
-    )
-}
+        <div className="details">
+          <p>{title}</p>
+          <p>Price - {price}$</p>
+          <button className="buttoni" onClick={() => handleClick(item)}>Add to Cart</button>
+        </div>
+      </div>
+    );
+  };
 
-export default compo;
+export default Compo;

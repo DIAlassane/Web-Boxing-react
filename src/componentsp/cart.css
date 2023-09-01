@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  article {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .cart_box img {
+    width: 50px;
+    height: 50px;
+  }
+  .cart_img {
+    display: flex;
+    width: 250px;
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .cart_box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 5px;
+  }
+
+  .butdiv {
+    width: 20%;
+    margin-right: 1.5rem;
+  }
+  
+  .cart_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    width: 100%;
+    margin-top: 0.3rem;
+  }
+  
+  .cart_box div:nth-child(3) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    width: 100%;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: brown;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cart_box div:nth-child(3) button:hover {
+    background-color: red;
+  }
+  .cart_box div:nth-child(3) span {
+    background-color: white;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total span:nth-child(1) {
+    font-size: 2rem;
+    color: skyblue;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .total span:nth-child(2) {
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+  }
+
+@media screen and (max-width: 826px) {
+    article {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 12%;
+      }
+
+      .total span:nth-child(1) {
+        font-size: 1.5rem;
+        color: skyblue;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      
+      .total span:nth-child(2) {
+        font-size: 1.5rem;
+        color: green;
+        font-weight: bold;
+      }
+
+      .remprice {
+        margin-left: 2rem;
+      }
+        
+}
