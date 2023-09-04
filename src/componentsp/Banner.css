@@ -101,7 +101,7 @@ h1 {
     padding-top: 0.2rem;
 }
 
-.flex {
+.flexu {
     display: flex;
     justify-content: space-between;
     margin: 2rem;
@@ -139,4 +139,23 @@ h1 {
 
 .hero-stuck {
     padding-bottom: 20%;
+}
+
+@media screen and (max-width: 586px) {
+    .flexu {
+        display: block;
+    }
+
+    .sect1 h2:hover,
+    .sect2 h2:hover,
+    .sect3 h2:hover,
+    .sect4 h2:hover,
+    .sect5 h2:hover,
+    .sect6 h2:hover {
+        background-color: rgba(71, 24, 24, 0.427);
+    }
+
+    .lechant {
+        height: 200vh;
+    }
 }

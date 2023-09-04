@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
-.flex,
+.flex {
+    display: flex;
+    height: 100vh;
+}
+
+.flexsa,
 .flexa {
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
 }
 
 .img {
@@ -27,7 +34,7 @@ form {
 }
 
 h1 {
-    color: white;
+    color: brown;
     justify-content: center;
     text-align: center;
 }
@@ -72,4 +79,18 @@ button {
 .titi {
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 801px) {
+    .flexsa {
+        display: block;
+    }
+
+    .img {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+    }
 }

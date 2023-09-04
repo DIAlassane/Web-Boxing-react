@@ -19,7 +19,7 @@ function Service() {
         url="/"
         btnClass="show"/>
         <h1>NOS SÉANCES</h1>
-        <div className="flex">
+        <div className="flexsa">
             <Compns 
             cName="seance"
             title="JUNIOR"

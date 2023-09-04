@@ -21,7 +21,7 @@ function Product12(props) {
                 cName="span"
                 text2="product"/>
                 
-                <div className="flex">
+                <div className="flexu">
                     <Comp 
                     cName="sect1"
                     href1=""
@@ -46,7 +46,7 @@ function Product12(props) {
                 cName="span"
                 text2="services"/>
 
-                <div className="flex">
+                <div className="flexu">
                     <Comp 
                     cName="sect4"
                     href1=""
